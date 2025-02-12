@@ -1,0 +1,61 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body{
+	p{
+		font-family:Verdana;
+	}
+background:#3a4660;	
+color:#845007;
+}
+
+
+div#container {
+	margin:auto;
+	margin-top:20px;
+	width:800px;
+	border:1px #c9af98;
+	padding:25px;
+	background:#c9af98;
+}
+header{
+	
+	font-family:Tahoma;
+	background-color:#e1e8f0;
+	padding:5px;
+	border:2px dashed;
+	
+}
+footer{
+	font-size:0.8em;
+	padding:0px;
+	background:#DEB271;
+	font-family:Verdana;
+	border:1px dashed;
+	
+	
+}
+
+<style>
+body{
+background-color:#ed8a63;}
+
+p{
+background-color:#DEB271;
+padding:10px; }
+
+</style>
+
