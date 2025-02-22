@@ -1,0 +1,135 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	
+}
+header{
+	margin:auto;
+	background-color:#b3b3ce;
+	padding:5px;
+	border:2px;
+	font-family:Trirong;
+}
+
+footer{
+	top:1000px;
+	font-size:0.8em;
+	padding:0px;
+	font-family:Trirong;
+	
+}
+
+
+body {
+	background: #20205a;
+	color: #4d4da1;
+}
+
+
+div#container {
+	margin:auto;
+	margin-top:20px;
+	width:700px;
+	border:0px solid black;
+	padding:0px;
+	background:;
+	position:relative;
+	
+}
+
+
+.Q{
+	position:absolute;
+	font-size: 27em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:0deg;
+	top:50px;
+	left:-200px;
+	
+}
+
+
+
+.U{
+	position:absolute;
+	font-size: 25em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:-90deg;
+	top:320px;
+	left:130px;
+}
+
+.E{
+	position:absolute;
+	font-size: 25em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:0deg;
+	top:460px;
+	left:-150px;
+}
+
+.EE{
+	position:absolute;
+	font-size: 14em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:0deg;
+	top:600px;
+	left:57px;
+}
+
+.N{
+	position:absolute;
+	font-size: 10em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:0deg;
+	top:788px;
+	left:170px;
+}
+
+.Nextra{
+	position:absolute;
+	font-size: 1em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:0deg;
+	top:980px;
+	left:290px;
+}
+	
+	.Nother{
+	position:absolute;
+	font-size: 1em;
+	font-family:"Trirong";
+	width:100px;
+	rotate:0deg;
+	top:390px;
+	left:134px;
+}
+
+.font-effect-emboss{
+	position:absolute;
+	font-size: 1.5em;
+	font-family:"Sofia";
+	color:#d5d5fc;
+	width:600px;
+	rotate: 0deg;
+	top:750px;
+	left:300px;
+	
+}
+	
+
+
