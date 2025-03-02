@@ -1,0 +1,237 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background: #A5BD96;
+	
+}
+
+
+#container {
+	margin:auto;
+	width:800px;
+	position:relative;
+	height:100%;
+}
+
+div#one{
+	height: 100px;
+  width: 100px;
+  background-color: #EBC877;
+  border-radius: 50%;
+  position:absolute;
+bottom:20px;
+	left:20px;	
+	transition:2s;
+}
+
+div#one:hover{
+	background:#9FADD3;
+	height:200px;
+	width:200px;
+	bottom:150px;
+	right:150px;
+	transform: rotate(45deg);
+}
+
+
+div#two{
+height: 150px;
+  width: 150px;
+  background-color: #9FADD3;
+  border-radius: 50%;
+  position:absolute;
+bottom:150px;
+	left:150px;
+	transition:2s;
+}
+
+div#two:hover{
+	background:#EBC877;
+	height:70px;
+	width:70px;
+	bottom:150px;
+	right:150px;
+	transform: rotate(45deg);
+}
+
+div#three{
+height: 200px;
+  width: 200px;
+  background-color: #9FADD3;
+  border-radius: 50%;
+  position:absolute;
+top:20px;
+	right:70px;
+	transition:2s;
+}
+
+div#three:hover{
+	background:#EBC877;
+	height:400px;
+	width:400px;
+	bottom:150px;
+	right:150px;
+	transform: rotate(45deg);
+}
+
+div#four{
+height: 100px;
+  width: 100px;
+  background-color: #EBC877;
+  border-radius: 50%;
+  position:absolute;
+top:250px;
+	right:340px;
+	transition:2s;
+}
+
+div#four:hover{
+	background:#9FADD3;
+	height:300px;
+	width:300px;
+	bottom:150px;
+	right:150px;
+	transform: rotate(45deg);
+}
+
+div#five{
+height: 100px;
+  width: 100px;
+  background-color: #B6D39F;
+  border-radius: 50%;
+  position:absolute;
+bottom:20px;
+	right:20px;
+	transition:2s;
+}
+
+div#five:hover{
+	background:#C16A56;
+	height:70px;
+	width:70px;
+	bottom:20px;
+	right:20px;
+	transform: scaleY(1);
+	
+}
+
+div#six{
+height: 100px;
+  width: 100px;
+  background-color: #B6D39F;
+  border-radius: 50%;
+  position:absolute;
+top:20px;
+	left:20px;
+	transition:2s;
+}
+
+div#six:hover{
+	background:#C16A56;
+	height:70px;
+	width:70px;
+	bottom:150px;
+	right:150px;
+	transform: scaleY(1);
+	
+}
+
+div#seven{
+height: 70px;
+  width: 70px;
+  background-color: #C16A56;
+  border-radius: 50%;
+  position:absolute;
+top:30px;
+	left:170px;
+	transition:2s;
+}
+
+div#seven:hover{
+	background: #B6D39F;
+	height:170px;
+	width:170px;
+	bottom:150px;
+	right:150px;
+	transform: scaleY(1);
+	
+}
+
+div#eight{
+height: 70px;
+  width: 70px;
+  background-color: #C16A56;
+  border-radius: 50%;
+  position:absolute;
+bottom:30px;
+	right:170px;
+	transition:2s;
+}
+
+div#eight:hover{
+	background: #B6D39F;
+	height:170px;
+	width:170px;
+	bottom:30px;
+	right:170px;
+	transform: scaleY(1);
+	
+}
+
+
+div#nine{
+height: 70px;
+  width: 70px;
+  background-color: #C16A56;
+  border-radius: 50%;
+  position:absolute;
+top:170px;
+	left:30px;
+	transition:2s;
+}
+
+div#nine:hover{
+	background: #B6D39F;
+	height:170px;
+	width:170px;
+	bottom:150px;
+	right:150px;
+	transform: scaleY(1);
+	
+}
+
+
+div#ten{
+height: 70px;
+  width: 70px;
+  background-color: #C16A56;
+  border-radius: 50%;
+  position:absolute;
+bottom:170px;
+	right:30px;
+	transition:2s;
+}
+
+div#ten:hover{
+	background: #B6D39F;
+	height:170px;
+	width:170px;
+	bottom:170px;
+	right:30px;
+	transform: scaleY(1);
+	
+}
