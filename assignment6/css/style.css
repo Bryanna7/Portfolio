@@ -1,0 +1,121 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:3px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later / need google font*/
+
+body {
+	
+	color:#eab676;
+	background: #F1E8C6; 
+	/*background-size: cover;*/ 
+	Font-family: Helvetica, sans-serif ;
+}
+
+
+#container {
+	
+}
+
+header{
+	text-align: center;
+}
+
+#containter>header h1{
+	
+}
+
+
+section{
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: #CDDEB2;
+}
+
+footer{
+	font-size: 0.85em;
+	padding: 7px;
+	/*color:  ;*/
+}
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	body{
+    background: url('../img/BIM.jpg') no-repeat fixed center;
+	background-size: cover;
+	
+		
+	}
+	
+	#container{
+		width: 725px;
+		margin: auto;
+	}
+	
+	section{
+		
+	}
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	#container{
+	width: 1000px;
+	}
+	
+	
+	body{
+	background: url('../img/BIM.jpg') no-repeat fixed center;
+	background-size: cover;
+	}
+	
+	section#First{
+		float:left;
+		width: 420px;
+		background:#838B75;
+	}
+	
+	section#second{
+	float:right;
+	width:450px;
+	background:#838B75;
+	}
+	
+	footer{
+	clear: both;
+	}
+	
+} /* closes 1024px+ */
+
+
+
