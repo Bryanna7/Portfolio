@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>***</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>Art Institute Museum</h1>
+<h2>Written experience</h2>
+</header>
+
+<main>
+
+<p>Visiting the Chicago art institute museum and walking through the 20th and 21st Century 
+Architecture and Design, there were few artworks that led to questioning and wondering. One 
+collection in the exhibition was different artworks presenting how architects and designers create 
+a new image of ways civilization could live together along with the idea of innovation reflecting 
+the global climate and environment. An artwork by James N. Wines displayed a high-rise 
+building, exposing the interior where there are a bunch of homes with a front yard and trees.</p>
+
+<button id="art">Artwork Info</button>
+
+<p id="hidden"> The 
+artwork was a vision of how this could be a new way of home properties expanding upwards 
+with greenery and a way of flexibility where people can customize their homes. While the 
+imagination took over, it brought some questions of what could prevent it from being real. Few 
+thoughts were about the natural lighting, the temperature, the greenery, and the safety of people. 
+Also thinking about what could happen in case of emergency, how would people evacuate?</p>
+
+<button id="sec">Second paragraph</button>
+
+<p id="third">The second artwork is a film created by Clarissa Tossin display two teenagers cleaning 
+the glossy white marble flooring. The idea of the film illustrates the utopian of marble material. 
+Highlighting the actions of how modern capitalism exploits the material where it leads to labor 
+work. Labor work of keeping the material clean and presentable to maintain the image of modern 
+architecture. The second collection I toured through was different artworks displaying the 
+exterior and interior of a building in axonometric view. The collection shortly illustrated how 
+axonometric drawing is a way to communicate successfully to designers and non-designers to 
+fully understand what the artwork is presenting, it is about, and what messages it is sending to 
+the viewers. Mentioning how 3d forms are simpler to understand than 2D without having 
+captions or questioning the direction at which you are viewing. </p>
+
+
+<button id="hatch">Summary</button>
+<p id="Sum">After visiting, seeing the Arch Gallery, and seeing the importance of how axonometric 
+diagrams can communicate with non-designers. From reading and observing the posters, it made 
+me think further of how I can graphically display my project. Especially how the topic of 
+diagrams being able to tell a story and how to give out information brought me back to the 
+discussions from Narrative studio class.</p>
+
+</main>
+
+
+
+  </div><!-- close "container" -->
+  
+  
+  <!-- Paste the jQuery starter code below here -->
+  
+  
+  
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+$('p#hidden').hide();
+$('p#third').hide();
+$('p#Sum').hide();
+
+
+  $(document).ready(function() {
+
+$("button#art").click(function(){
+		$('p#hidden').slideToggle();
+		
+}); //close click function
+
+$('button#sec').click(function(){
+		$('p#third').slideToggle();
+}); //close click function
+
+$('button#hatch').click(function(){
+		$('p#Sum').slideToggle();
+}); //close click function
+
+
+  }); //close .ready()
+  
+  
+  
+  
+</script>
+  
+  
+  
+
+</body>
+	
+</html> 
