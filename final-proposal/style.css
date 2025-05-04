@@ -10,30 +10,61 @@ html {
 	font-size: 1em;
     line-height: 1.4em;
 }
-
-
-
-
-body{
-	p{
-		font-family:Verdana;
-	}
-	
-
+header {
+	padding:1em;
+	text-align:center;
 }
+
+figcaption{
+	text-align: center;
+}
+footer {
+	padding: 1em;
+}
+
+header, footer {
+	background: #A84646;
+	color:white;
+	Font-family: Simonetta, sans-serif ;
+}
+footer{
+	background:grey;
+}
+
+
+figure img{
+	display:block;
+	width:40%;
+	margin:auto;
+	
+}
+body {
+	
+	color:white;
+	background: #222120; 
+	/*background-size: cover;*/ 
+	Font-family: Simonetta, sans-serif ;
+}
+
+
+
+
+
+
+
 
 
 div#container {
 	margin:auto;
 	margin-top:20px;
-	width:800px;
+	width:1000px;
 	
 	padding:25px;
 	
 }
 header{
 	
-	font-family:Verdana;
+	
 	
 }
 footer{
