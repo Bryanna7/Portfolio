@@ -1,0 +1,501 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+/*Style header*/
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px; 2.5%;
+	background-color: white;
+	
+}
+
+body{
+	min-height:100vh;
+	background-color: #9B5857;
+	background-position: center;
+	font-family: fondamento, sans-serif;
+	
+}
+ li{
+	 display: inline-flex;
+	 padding:.75em;
+	 text-decoration:none;
+	 font-size:.70em;
+	
+ }
+
+h2{
+	font-family: fondamento, sans-serif;
+	margin-right:auto;
+	font-size: .75em;
+}
+
+figure img{
+	display:block;
+	width:100%;
+	
+	
+}
+ nav a{
+	text-decoration:none;
+font-family:sans-serif;
+color: black;
+ }
+ nav a:hover{
+	 color:grey;
+ }
+
+
+
+
+
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+footer{
+	clear: both;
+	padding: .75em;
+	background-color: white;
+	font-size:.70em;
+	
+	
+	}
+
+figcaption{
+	font-size:.50em;
+}
+
+figure#responsive{
+	margin:center;
+	display:block;
+	width:50%;
+}
+
+figure.responsive {
+    position: relative;
+    padding-bottom: 56.25%;  /* 16:9 */
+    height: 0px;
+    overflow: hidden;
+    max-width: 70%;
+}
+
+figure.responsive iframe {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 100%;
+    height:100%;
+}
+
+
+
+body {
+	
+}
+
+#container {
+	width:95%;
+	margin:auto;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	#container {
+	width:100%;
+	margin:auto;
+	
+	
+}
+	
+	
+	/*flex parent*/	
+main{
+	display: flex;
+}
+
+/*flex items*/
+
+nav li{
+flex: 1 0 auto;
+}
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+/*Style header*/
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px; 2.5%;
+	background-color: white;
+	
+}
+
+body{
+	min-height:100vh;
+	background-color: #9B5857;
+	background-position: center;
+	font-family: fondamento, sans-serif;
+	
+}
+ li{
+	 display: inline-flex;
+	 padding:1em;
+	 text-decoration:none;
+	 font-size:1em;
+	 
+	
+ }
+
+h2{
+	font-family: fondamento, sans-serif;
+	margin-right:auto;
+	font-size: 1.2em;
+}
+
+figure img{
+	display:block;
+	width:10%;
+	
+}
+ nav a{
+	text-decoration:none;
+font-family:sans-serif;
+color: black;
+ }
+ nav a:hover{
+	 color:grey;
+ }
+
+
+
+
+
+
+
+/*HOME PAGE LAYOUT*/
+section{
+	padding: 2rem 9%;
+	background-color:black;
+}
+
+section#home{
+	display:flex;
+	align-items; center;
+	min-height: 50vh;
+	background:url(../img/single.jpeg) no-repeat;
+	background-size:50%;
+	background-position:center;
+	background-color:black;
+}
+
+section#space{
+	
+	Background-color:white;
+}	
+
+section#First{
+	font-family: fondamento, sans-serif;
+	float:left;
+	width: 470px;
+	background-color: #9B5857;
+	
+}
+section#Second{
+	font-family: fondamento, sans-serif;
+	float:right;
+	width: 470px;
+	background-color: #9B5857;
+	
+}
+
+section#bottom{
+	background-color: white;
+	
+}
+
+h3{
+	color: white;
+	font-family: fondamento, sans-serif;
+}
+
+p{
+color:white;
+font-family:fondamento, sans-serif;
+}
+
+figure {
+	margin:0px;
+	flex-grow:10;
+}
+
+figure img{
+	display:block;
+	width:100%;
+	margin:auto;
+	
+}
+
+footer{
+	clear: both;
+	padding: 1em;
+	background-color: white;
+	font-size:.70em;
+	
+	
+	}
+		
+p#bottom{
+	color:black;
+	font-family:fondamento, sans-serif;
+}
+
+
+
+
+
+/*ABOUT PAGE*/
+
+div#ainfo{
+	position:relative;
+	
+}
+
+
+h4{
+	font-family: fondamento, sans-serif;
+	margin-right:auto;
+	font-size: 1.2em;
+	position:absolute;
+	top:50px;
+	left:120px;
+}
+
+p.about{
+	color:black;
+	position:absolute;
+	float:left;
+	width: 470px;
+	top:100px;
+	left:120px;
+	
+}
+
+figure#apic{
+	position:absolute;
+	float:right;
+	width: 470px;
+	top:80px;
+	right:120px;
+}
+
+
+
+
+
+
+
+
+/*BLOG PAGE*/
+div#bloginfo{
+	background-color: white;
+	position:relative;
+}
+
+h5{
+	
+	font-size:2em;
+	color:white;
+	padding:7px;
+}
+
+figure#apicone{
+	display:block;
+	width:30%;
+	margin:auto;
+}
+
+figure#apictwo{
+	display:block;
+	width:30%;
+	margin:auto;
+}
+
+figure#apicthree{
+	display:block;
+	width:30%;
+	margin:auto;
+}
+
+p#titlehead{
+	font-size:1.75em;
+}
+
+figure#responsive{
+	margin:center;
+	
+}
+
+figcaption{
+	color:white;
+	font-size:.50em;
+}
+
+footer# bfooter{
+	position:absolute;
+	bottom:0px;
+	width:auto;
+	font-size:.70em;
+}
+
+
+
+/*SERVICE PAGE*/
+
+h5{
+	text-align:center;
+}
+
+figure#mimage{
+	display:block;
+	width:40%;
+	margin:auto;
+	
+}
+
+div#sinfo, div#sform{
+margin:auto;
+	margin-top:20px;
+	width:1000px;
+	
+	padding:20px;	
+}
+
+div#sform{
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*PRODUCT PAGE*/
+
+
+
+div#cproduct{
+	position:relative	
+	
+}
+section#Eleven{
+	float:left;
+	width: 470px;
+	background-color: #9B5857;
+	
+}
+section#Twelve{
+	float:right;
+	width: 470px;
+	background-color: #9B5857;
+	
+}
+
+h7{
+	font-family: fondamento, sans-serif;
+	margin-right:auto;
+	font-size: 1.2em;
+	
+}
+
+p#introproduct{
+	font-family: fondamento, sans-serif;
+	color:black;
+}
+
+p#productfoot{
+	color:Black;
+}
+
+footer#afooter{
+	position:absolute;
+	bottom:0px;
+	width:1497px;
+	font-size:.70em;
+}
+
+	
+#container {
+	width:100%;
+	margin:auto;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+	
+} /* closes 1024px+ */
+
+
+
