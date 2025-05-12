@@ -474,7 +474,7 @@ p#productfoot{
 footer#afooter{
 	position:absolute;
 	bottom:0px;
-	width:1505px;
+	width:100%;
 	font-size:.70em;
 }
 
